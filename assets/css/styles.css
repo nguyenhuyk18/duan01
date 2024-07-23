@@ -225,30 +225,13 @@ a {
 }
 
 .pic-list a {
+  display: flex;
   --color-of-border: white;
   height: 90px;
   border-radius: 12px;
   transition: 0.5s;
-}
-
-.pic-list a:nth-child(1) {
-  padding: 31px 42px;
-}
-
-.pic-list a:nth-child(2) {
-  padding: 25px 42px;
-}
-
-.pic-list a:nth-child(3) {
-  padding: 26px 42px;
-}
-
-.pic-list a:nth-child(4) {
-  padding: 29px 42px;
-}
-
-.pic-list a:nth-child(5) {
-  padding: 29px 42px;
+  padding: 0px 42px;
+  align-items: center;
 }
 
 .pic-list a:nth-child(1):hover {
